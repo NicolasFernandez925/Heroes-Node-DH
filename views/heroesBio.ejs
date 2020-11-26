@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Detalle heroes </h1>
+    <hr>   
+    <% if (error) { %>
+        <p><%= error %></p>
+    <% } %>
+    <% if (!(nombre == null )) { %>
+        <h4>Nombre: <%= nombre %></h4>
+        <p><%= resenia %></p>   
+    <% } %>
+  </body>
+</html>
